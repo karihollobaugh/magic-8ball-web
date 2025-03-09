@@ -3,17 +3,17 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Magic 8-Ball</title>
-    <link rel="stylesheet" href="style.css">
+    <title>Magic 8 Ball - Alien Theme</title>
+    <link rel="stylesheet" href="style.css"> <!-- Link to my CSS -->
 </head>
 <body>
-    <div class="container">
-        <h1>Ask the Mighty Magic 8-Ball</h1>
-        <input type="text" id="question" placeholder="Type your question...">
-        <button onclick="shake8Ball()">Shake the 8-Ball</button>
-        <p id="response"></p>
-        <audio id="sound" src="sounds/retro-game-notification.wav"></audio>
+    <div id="ball-container" class="alien-theme">
+        <h1>Ask the Intergalactic Oracle</h1>
+        <input type="text" id="question" placeholder="Ask a yes/no question">
+        <button id="askButton">Ask</button>
+        <p id="answer"></p>
     </div>
-    <script src="script.js"></script>
+
+    <script src="script.js"></script> <!-- Link to my JS -->
 </body>
 </html>

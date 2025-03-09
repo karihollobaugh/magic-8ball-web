@@ -1,34 +1,44 @@
 body {
     font-family: Arial, sans-serif;
     text-align: center;
-    background-color: #282c34;
-    color: white;
-    padding: 50px;
+    background-color: black;
+    color: limegreen; /* Alien green text */
 }
 
-.container {
-    max-width: 400px;
-    margin: auto;
-    padding: 20px;
-    background: #444;
+#ball-container {
+    margin-top: 50px;
+    background-color: #333;
     border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 0 20px rgba(0, 255, 0, 0.5);
+    display: inline-block;
 }
 
-input {
-    width: 80%;
+#question {
     padding: 10px;
-    margin: 10px 0;
-}
-
-button {
-    padding: 10px 20px;
-    background-color: purple;
-    color: white;
-    border: none;
-    cursor: pointer;
+    margin: 10px;
+    background-color: #1a1a1a;
+    border: 2px solid limegreen;
+    color: limegreen;
     border-radius: 5px;
 }
 
-button:hover {
-    background-color: darkviolet;
+#askButton {
+    padding: 10px 20px;
+    background-color: limegreen;
+    color: black;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+#askButton:hover {
+    background-color: darkgreen;
+}
+
+#answer {
+    margin-top: 20px;
+    font-size: 24px;
+    font-weight: bold;
 }
