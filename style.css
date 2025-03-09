@@ -23,7 +23,7 @@ body {
     border-radius: 5px;
 }
 
-#askButton {
+#ask-button {
     padding: 10px 20px;
     background-color: limegreen;
     color: black;
@@ -33,7 +33,7 @@ body {
     font-size: 16px;
 }
 
-#askButton:hover {
+#ask-button:hover {
     background-color: darkgreen;
 }
 
