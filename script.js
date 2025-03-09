@@ -21,13 +21,14 @@ const alienResponses = [
     "Beep boop.. beats me.",
     "Yes - the universe is on your side.",
     "Definitely - just don't tell the space police.",
-    "Sure, but we will make a meme of you later.",
-    "Nah, not this time. Try asking your cat.",
-    "No, the universe is too busy right now.",
+    "Yeah, no, yeah.. totally..",
+    "We say no. Try asking your cat.",
+    "Signal too staticky.. add more foil to the antenna.",
     "Try again in 5 light years.",
     "Not in a million years. Even aliens have boundaries.",
     "I'm sorry, I've forgotten the question already.",
-    "Yes. That'll be 800 space bucks."
+    "Yes. That'll be 800 space bucks.",
+    "Zorp! I mean... yes."
 ];
 
 // Handle the button click event
